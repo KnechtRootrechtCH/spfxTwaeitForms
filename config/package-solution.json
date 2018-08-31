@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "twaeit-forms-client-side-solution",
+    "id": "d179c76d-54bc-4dfd-b691-4f60a5cadddf",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/twaeit-forms.sppkg"
+  }
+}

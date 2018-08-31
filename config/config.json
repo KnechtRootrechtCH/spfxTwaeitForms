@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "twaeit-forms-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/twaeitForms/TwaeitFormsWebPart.js",
+          "manifest": "./src/webparts/twaeitForms/TwaeitFormsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TwaeitFormsWebPartStrings": "lib/webparts/twaeitForms/loc/{locale}.js"
+  }
+}
